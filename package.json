@@ -1,7 +1,7 @@
 {
-  "name": "@jdietrichdev/simple-package",
-  "version": "1.0.9",
-  "description": "First attempt at creating an npm package",
+  "name": "horizons-api",
+  "version": "1.0.0",
+  "description": "Package to help make requests to the NASA JPL Horizons system",
   "types": "./lib/cjs/types/index.d.ts",
   "main": "./lib/cjs/index.js",
   "scripts": {
@@ -56,6 +56,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jdietrichdev/simple-package.git"
+    "url": "https://github.com/jdietrichdev/horizons-api.git"
   }
 }

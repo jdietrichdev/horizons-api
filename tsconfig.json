@@ -11,7 +11,7 @@
     "allowSyntheticDefaultImports": true
   },
   "typedocOptions": {
-    "name": "simple-package",
+    "name": "horizons-api",
     "entryPoints": ["src"],
     "entryPointStrategy": "expand",
     "out": "docs"

@@ -1,4 +1,4 @@
-# simple-package
+# horizons-api
 
 Template repsitory for creating a deployable NPM package
 
