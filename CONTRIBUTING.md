@@ -47,7 +47,7 @@ There are plugins that can help automatically enforce the linting defined in dif
 npm run lint
 
 # Resolve all fixable issues
-npm run lint --fix
+npm run lint -- --fix
 ```
 
 ### Commit Message Formatting
