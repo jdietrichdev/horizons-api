@@ -5,17 +5,50 @@ Thanks for your interest in contributing to horizons-api!
 Contained below are the setup, guidelines, and expectations
 of any contributions submitted to this package.
 
-## Setup
+## Getting Started
+
+### Requirements
+
+- Have Git installed on your local computer
+- Have Node installed on your local computer
+  - Recommend using nvm for managing Node versions
+  - Recommend using Node 18+
+
+### Setup
+
+The repository must be forked to your own account, then you can run the following commands to get started:
+
+```terminal
+git clone https://github.com/{account}/horizons-api.git
+cd horizons-api
+npm install
+```
 
 ## Development
 
+The following is expected of all development that takes place within this package.
+
 ### Test Driven Development (TDD)
 
-All development done within this package should follow the practices of TDD as follows: 
+All development done within this package should follow the practices of TDD as follows:
 
 - Write precise tests - Write tests that will verify the exact functionality that you are trying to implement, these tests will likely fail as the solution has not yet been coded.
 - Correct the code - Once the tests are failing, make the necessary changes required to get the test to pass
 - Refactor - Once your tests are passing, look for ways to optimize the code, these changes should not break any tests or change the overall functionality of the code
+
+### Linting
+
+This package is being linted using ESLint and Prettier to help keep the coding consistent and readable.
+This linting is also included in the pipeline and will fail if not completed successfully.
+There are plugins that can help automatically enforce the linting defined in different IDEs, but if you do not want to use those (or they aren't working), you can use the following commands to find and fix any linting issues within the project:
+
+```terminal
+# Find any linting issues
+npm run lint
+
+# Resolve all fixable issues
+npm run lint --fix
+```
 
 ### Commit Message Formatting
 
@@ -55,3 +88,10 @@ Name of the component affected
 Brief description of the update made
 
 ## Pull Requests
+
+Use the pull request template to help give context to the proposed changes that you are making and help link it to an open issue.
+
+## Issues
+
+Please use the issue template that most closely matches what you are looking to provide.
+If none align with your intent, then submit a feature request issue and we can have additional discussion within the issue.
